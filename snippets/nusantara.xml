@@ -4,13 +4,13 @@
   <!-- Nusantara remote -->
   <remote  name="nad"
            fetch="ssh://git@github.com/Nusantara-ROM/"
-           revision="12.1"
+           revision="13"
            sync-j="16" />
 
   <!-- Device remote -->
   <remote  name="device"
            fetch="ssh://git@github.com/NusantaraROM-devices/"
-           revision="12" />
+           revision="13" />
 
   <!-- Github remote -->
   <remote  name="github"
@@ -53,28 +53,14 @@
   </project>
 
   <!-- External -->
-  <project path="external/colorkt" name="android_external_colorkt" remote="nad" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pe" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="nad" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="nad" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
-  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="nad" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="nad" />
-  <project path="external/mksh" name="android_external_mksh" remote="nad" />
-  <project path="external/themelib" name="android_external_themelib" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
-  <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
-  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
-  <project path="external/zlib" name="android_external_zlib" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
-  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="nad" />
-  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
@@ -132,34 +118,25 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="nad" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nad" />
-  <project path="packages/apps/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1" />
-  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="nad" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
-  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="nad" />
-  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
   <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" />
-  <project path="packages/apps/NusantaraPapers" name="android_packages_apps_NusantaraPapers" remote="nad" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
-  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="nad" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="nad" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nad" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="nad" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="nad" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="nad" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="nad" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
-
-kdrag0n/android_packages_apps_RepainterServicePriv
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
@@ -171,25 +148,19 @@ kdrag0n/android_packages_apps_RepainterServicePriv
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="nad" />
   <project path="system/core" name="android_system_core" remote="nad" />
   <project path="system/media" name="android_system_media" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
-  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
 
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
-  <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="nad" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nad" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
-  <project path="vendor/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="12.1" />
 </manifest>
