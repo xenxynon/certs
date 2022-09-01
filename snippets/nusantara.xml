@@ -152,6 +152,7 @@
   <project path="system/core" name="android_system_core" remote="nad" />
   <project path="system/libhidl" name="android_system_libhidl" remote="nad" />
   <project path="system/media" name="android_system_media" remote="nad" />
+  <project path="system/security" name="android_system_security" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
