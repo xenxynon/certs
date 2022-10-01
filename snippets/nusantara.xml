@@ -166,6 +166,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="nad" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="nad" />
 
   <!-- Vendor -->
