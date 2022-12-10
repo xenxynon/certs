@@ -53,10 +53,7 @@
   </project>
 
   <!-- External -->
-  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
-  <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" revision="12" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
-  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
 
@@ -126,12 +123,10 @@
   <!-- Packages -->
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
-  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="nad" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
   <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" />
-  <project path="packages/apps/NusantaraSystemUI" name="android_packages_apps_NusantaraSystemUI" remote="nad" revision="13" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
