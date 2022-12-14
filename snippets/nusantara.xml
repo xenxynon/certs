@@ -53,7 +53,7 @@
   </project>
 
   <!-- External -->
-  <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" revision="12" />
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
