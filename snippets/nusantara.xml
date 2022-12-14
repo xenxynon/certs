@@ -53,6 +53,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" revision="12" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
@@ -123,6 +124,7 @@
   <!-- Packages -->
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="nad" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
