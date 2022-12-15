@@ -41,6 +41,7 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- External -->
+  <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
