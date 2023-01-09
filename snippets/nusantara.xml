@@ -37,7 +37,7 @@
   <project path="bootable/recovery" name="nad/bootable_recovery" remote="nad" />
 
   <!-- Build -->
-  <project path="build/make" name="nad/build" remote="nad" >
+  <project path="build/make" name="nad/build_make" remote="nad" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -152,7 +152,7 @@
   <!-- Sepolicy -->
   <project path="device/nad/sepolicy" name="nad/device_nad_sepolicy" remote="nad" />
   <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0" />
-  <project path="device/qcom/sepolicy-legacy-um" name="ArrowOS/android_device_qcom_sepolicy-legacy-um" remote="github" revsion="arrow-13.0" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="nad" />
   <project path="device/qcom/sepolicy" name="nad/device_qcom_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy_vndr" name="nad/device_qcom_sepolicy_vndr" remote="nad" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="ArrowOS/android_device_qcom_sepolicy_vndr-legacy-um"  remote="github" revision="arrow-13.0" />
